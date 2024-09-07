@@ -1,0 +1,31 @@
+body{
+background: url(img.jpg) no-repeat; 
+background-position: center;
+background-size: cover;
+width: 400px;
+height: 600px; 
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 12px;
+    padding: 10px 20px;
+    background: transparent;
+    backdrop-filter: blur (6px);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.wrapper h2{
+font-size: 30px;
+    color: #fffefe
+}
+
+.input-field {
+position: relative;
+}

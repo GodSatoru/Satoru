@@ -1,0 +1,39 @@
+.input-field input[type="email"]:not(:focus)::placeholder,
+.input-field input[type="password"]:not(:focus)::placeholder {
+transform: translateY(0%);
+transition: transform 0.2s ease-in-out;
+font-size: 16px;
+}
+
+
+a.forgot {
+text-decoration: none;
+position: relative;
+color: rgb(255, 255, 255, 0.712);
+}
+
+a.forgot:hover {
+text-decoration: underline;
+color: #fffffffd;
+}
+
+a.sign-up {
+text-decoration: none;
+color: rgba(255, 255, 255, 0.712);
+}
+
+a.sign-up:hover {
+text-decoration: underline;
+color: #fffffffd;
+}
+
+.wrapper .login{
+background: #fff;
+border: none;
+outline: none;
+cursor: pointer;
+font-weight: 600;
+border-radius: 45px;
+width: 200px;
+height: 30px;
+}
